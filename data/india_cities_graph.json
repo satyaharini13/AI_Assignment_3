@@ -1,0 +1,11 @@
+{
+  "Delhi": [["Jaipur", 280], ["Lucknow", 500], ["Chandigarh", 250]],
+  "Jaipur": [["Delhi", 280], ["Mumbai", 1150]],
+  "Lucknow": [["Delhi", 500], ["Patna", 400]],
+  "Patna": [["Lucknow", 400], ["Kolkata", 600]],
+  "Mumbai": [["Jaipur", 1150], ["Bangalore", 980]],
+  "Bangalore": [["Mumbai", 980], ["Chennai", 350]],
+  "Chennai": [["Bangalore", 350], ["Kolkata", 1650]],
+  "Kolkata": [["Patna", 600], ["Chennai", 1650]],
+  "Chandigarh": [["Delhi", 250]]
+}
